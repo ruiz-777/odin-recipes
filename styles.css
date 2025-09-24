@@ -1,29 +1,29 @@
 * {
     margin: 0;
-    /* border: 1px solid red; */
     box-sizing: border-box;
-    background-color: #3C8052;
+    background-color: #FAEDBE;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-    border: 10px solid #FAEDBE;
+    border: 10px solid #3C8052;
 }
 
 
 /* index's selectors - now I am going to check if I can and how can I reuse the selectors */
 h1 {
     text-align: center;
-    margin: 50px 50px 10px;
+    /* margin: 50px 50px 10px; */
     padding: 50px;
-    color: #FAEDBE;
+    color: #3C8052;
     font-size: 100px;
+    border: 5px solid #3C8052;
 }
 
 .subtitle-title {
     text-align: center;
     margin: 10px 50px 50px;
-    color: #FAEDBE;
+    color: #3C8052;
     font-size: 40px;
 }
 
@@ -43,7 +43,7 @@ img {
     height: auto;
     margin: 20px;
     padding: 10px;
-    border: 5px solid #FAEDBE;
+    border: 5px solid #3C8052;
     border-radius: 15%;
 }
 
@@ -51,37 +51,36 @@ img {
     display: inline-block;
     width: 200px;
     height: auto;
-    background-color: #FAEDBE;
+    background-color: #3C8052;
     border-radius: 5%;
     padding: 10px;
     margin-top: 10px;
     font-size: auto;
-    color: #3C8052;
+    color: #FAEDBE;
     font-weight: 700;
 }
 
 /* relative pages' selectors */
 
 .img-container {
-    border: 5px solid #FAEDBE;
+    border: 5px solid #3C8052;
     text-align: center;
     padding: 20px;
 }
-
-.ccc {
+.img-recipe {
     margin-bottom: 0px;
 }
 
 .desc-container {
-    border: 5px solid #FAEDBE;
+    border: 5px solid #3C8052;
     padding: 20px;
-    color: #FAEDBE;
+    color: #3C8052;
 }
 
 .ing-container {
-    border: 5px solid #FAEDBE;
+    border: 5px solid #3C8052;
     padding: 20px;
-    color: #FAEDBE;
+    color: #3C8052;
 }
 
 .ing-list-container {
@@ -89,9 +88,9 @@ img {
 }
 
 .steps-container {
-    border: 5px solid #FAEDBE;
+    border: 5px solid #3C8052;
     padding: 20px;
-    color: #FAEDBE;
+    color: #3C8052;
 }
 
 .steps-sublist-container {
@@ -99,9 +98,9 @@ img {
 }
 
 .notes-container{
-    border: 5px solid #FAEDBE;
+    border: 5px solid #3C8052;
     padding: 20px;
-    color: #FAEDBE;
+    color: #3C8052;
 }
 
 .notes-list-container {
@@ -110,17 +109,18 @@ img {
 
 .btn-container{
     text-align: center;
-    margin: 10px;
+    border: 5px solid #3C8052;
 }
 
 .btn-recipes{
     display: inline-block;
     width: 200px;
     height: auto;
-    background-color: #FAEDBE;
+    background-color: #3C8052;
     border-radius: 5%;
     padding: 10px;
     font-size: auto;
-    color: #3C8052;
+    color: #FAEDBE;
     font-weight: 700;
+    margin: 10px;
 }
