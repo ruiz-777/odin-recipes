@@ -10,6 +10,8 @@ body {
     border: 10px solid #FAEDBE;
 }
 
+
+/* index's selectors - now I am going to check if I can and how can I reuse the selectors */
 h1 {
     text-align: center;
     margin: 50px 50px 10px;
@@ -53,6 +55,71 @@ img {
     border-radius: 5%;
     padding: 10px;
     margin-top: 10px;
+    font-size: auto;
+    color: #3C8052;
+    font-weight: 700;
+}
+
+/* relative pages' selectors */
+
+.img-container {
+    border: 5px solid #FAEDBE;
+    text-align: center;
+    padding: 20px;
+}
+
+.ccc {
+    margin-bottom: 0px;
+}
+
+.desc-container {
+    border: 5px solid #FAEDBE;
+    padding: 20px;
+    color: #FAEDBE;
+}
+
+.ing-container {
+    border: 5px solid #FAEDBE;
+    padding: 20px;
+    color: #FAEDBE;
+}
+
+.ing-list-container {
+    text-align: justify;
+}
+
+.steps-container {
+    border: 5px solid #FAEDBE;
+    padding: 20px;
+    color: #FAEDBE;
+}
+
+.steps-sublist-container {
+    text-align: justify;
+}
+
+.notes-container{
+    border: 5px solid #FAEDBE;
+    padding: 20px;
+    color: #FAEDBE;
+}
+
+.notes-list-container {
+    text-align: justify;
+}
+
+.btn-container{
+    text-align: center;
+    margin: 10px;
+}
+
+.btn-recipes{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    background-color: #FAEDBE;
+    border-radius: 5%;
+    padding: 10px;
     font-size: auto;
     color: #3C8052;
     font-weight: 700;
